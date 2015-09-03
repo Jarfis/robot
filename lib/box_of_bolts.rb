@@ -7,5 +7,6 @@ class BoxOfBolts < Item
 
   def feed(target)
     target.heal(@heal_amount)
+    target.items.delete(self)
   end
 end

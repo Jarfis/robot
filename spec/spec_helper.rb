@@ -20,3 +20,5 @@ safe_require 'laser'
 safe_require 'plasma_cannon'
 safe_require "grenade"
 safe_require "custom_exceptions"
+safe_require "battery"
+safe_require "special_weapon"
